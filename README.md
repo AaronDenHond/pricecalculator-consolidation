@@ -16,6 +16,12 @@ Plan of attack :
 
 1. Make the basic MVC structure, use the MVC boilerplate as a guidance
 
+check
+
 2. Focus on the Model first : classes
 
+in progress
+
 3. Connection to the database in the Model
+
+in progress?
