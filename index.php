@@ -11,6 +11,7 @@ require 'Model/User.php';
 require 'Model/Product.php';
 require 'Model/Customer.php';
 require 'Model/Customergroup.php';
+require 'Model/CustomerLoader.php';
 
 
 //include all your controllers here
