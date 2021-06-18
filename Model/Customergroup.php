@@ -1,6 +1,6 @@
 <?php
 
-class Customer
+class Customergroup
 {
 
     private int $groupId;

@@ -6,7 +6,13 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 //include all your model files here
+require 'Model/Database.php';
 require 'Model/User.php';
+require 'Model/Product.php';
+require 'Model/Customer.php';
+require 'Model/Customergroup.php';
+
+
 //include all your controllers here
 require 'Controller/HomepageController.php';
 require 'Controller/InfoController.php';

@@ -18,10 +18,11 @@ Plan of attack :
 
 check
 
-2. Focus on the Model first : classes
+2. Connection to the database in the Database class
+
+check
+
+3. Focus on the Model first : classes : base and loaders
 
 in progress
 
-3. Connection to the database in the Model
-
-in progress?
