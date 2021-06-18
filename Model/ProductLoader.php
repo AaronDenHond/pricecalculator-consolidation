@@ -34,7 +34,7 @@ class ProductLoader
        foreach( $this->products as $product ) {
            if ($product->getProductId() === $id ){
               return $product; 
-
+               
            }
        }
     }

@@ -13,7 +13,7 @@ class CustomerLoader
         $queriedCustomers = $handle->fetchAll();
 
         foreach ($queriedCustomers as $queriedCustomer) {
-            $this->customers = new Customer((int)$queriedCustomer['id'], (string)$queriedCustomer['firstname'], (string)$queriedCustomer['lastname'], (int)$queriedCustomer['groupId'], (int)$queriedCustomer['fixDiscount'], (int)$queriedCustomer['varDiscount']);
+            $this->customers = new Customer((int)$queriedCustomer['id'], (string)$queriedCustomer['firstname'], (string)$queriedCustomer['lastname'], (int)$queriedCustomer['group_id'], (int)$queriedCustomer['fixed_discount'], (int)$queriedCustomer['variable_discount']);
         }
     }
 
